@@ -1,6 +1,5 @@
 # coding: utf-8
 
-# flake8: noqa
 """
     Distance API
 
@@ -13,9 +12,28 @@
 
 from __future__ import absolute_import
 
-# import models into model package
-from distance_client.models.error import Error
-from distance_client.models.leaf import Leaf
-from distance_client.models.nearest_leaf import NearestLeaf
-from distance_client.models.neighbour import Neighbour
-from distance_client.models.sample import Sample
+import unittest
+
+import distance_client
+from distance_client.api.neighbours_get_api import NeighboursGetApi  # noqa: E501
+from distance_client.rest import ApiException
+
+
+class TestNeighboursGetApi(unittest.TestCase):
+    """NeighboursGetApi unit test stubs"""
+
+    def setUp(self):
+        self.api = distance_client.api.neighbours_get_api.NeighboursGetApi()  # noqa: E501
+
+    def tearDown(self):
+        pass
+
+    def test_samples_id_nearest_neighbours_get(self):
+        """Test case for samples_id_nearest_neighbours_get
+
+        """
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main()

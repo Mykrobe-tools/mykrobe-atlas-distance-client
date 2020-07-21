@@ -1,6 +1,5 @@
 # coding: utf-8
 
-# flake8: noqa
 """
     Distance API
 
@@ -13,9 +12,28 @@
 
 from __future__ import absolute_import
 
-# import models into model package
-from distance_client.models.error import Error
-from distance_client.models.leaf import Leaf
-from distance_client.models.nearest_leaf import NearestLeaf
-from distance_client.models.neighbour import Neighbour
-from distance_client.models.sample import Sample
+import unittest
+
+import distance_client
+from distance_client.api.tree_delete_api import TreeDeleteApi  # noqa: E501
+from distance_client.rest import ApiException
+
+
+class TestTreeDeleteApi(unittest.TestCase):
+    """TreeDeleteApi unit test stubs"""
+
+    def setUp(self):
+        self.api = distance_client.api.tree_delete_api.TreeDeleteApi()  # noqa: E501
+
+    def tearDown(self):
+        pass
+
+    def test_tree_id_delete(self):
+        """Test case for tree_id_delete
+
+        """
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main()

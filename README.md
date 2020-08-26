@@ -92,6 +92,8 @@ Class | Method | HTTP request | Description
  - [Leaf](docs/Leaf.md)
  - [NearestLeaf](docs/NearestLeaf.md)
  - [Neighbour](docs/Neighbour.md)
+ - [NeighbourRelationship](docs/NeighbourRelationship.md)
+ - [NeighbourSummary](docs/NeighbourSummary.md)
  - [Sample](docs/Sample.md)
 
 

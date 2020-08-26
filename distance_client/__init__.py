@@ -44,5 +44,7 @@ from distance_client.models.error import Error
 from distance_client.models.leaf import Leaf
 from distance_client.models.nearest_leaf import NearestLeaf
 from distance_client.models.neighbour import Neighbour
+from distance_client.models.neighbour_relationship import NeighbourRelationship
+from distance_client.models.neighbour_summary import NeighbourSummary
 from distance_client.models.sample import Sample
 

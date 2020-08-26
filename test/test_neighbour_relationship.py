@@ -1,6 +1,5 @@
 # coding: utf-8
 
-# flake8: noqa
 """
     Distance API
 
@@ -13,11 +12,28 @@
 
 from __future__ import absolute_import
 
-# import models into model package
-from distance_client.models.error import Error
-from distance_client.models.leaf import Leaf
-from distance_client.models.nearest_leaf import NearestLeaf
-from distance_client.models.neighbour import Neighbour
-from distance_client.models.neighbour_relationship import NeighbourRelationship
-from distance_client.models.neighbour_summary import NeighbourSummary
-from distance_client.models.sample import Sample
+import unittest
+
+import distance_client
+from distance_client.models.neighbour_relationship import NeighbourRelationship  # noqa: E501
+from distance_client.rest import ApiException
+
+
+class TestNeighbourRelationship(unittest.TestCase):
+    """NeighbourRelationship unit test stubs"""
+
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+    def testNeighbourRelationship(self):
+        """Test NeighbourRelationship"""
+        # FIXME: construct object with mandatory attributes with example values
+        # model = distance_client.models.neighbour_relationship.NeighbourRelationship()  # noqa: E501
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main()

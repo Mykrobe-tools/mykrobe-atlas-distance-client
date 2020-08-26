@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **samples_id_nearest_neighbours_get**
-> list[Neighbour] samples_id_nearest_neighbours_get(id)
+> list[NeighbourRelationship] samples_id_nearest_neighbours_get(id)
 
 
 
@@ -42,7 +42,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**list[Neighbour]**](Neighbour.md)
+[**list[NeighbourRelationship]**](NeighbourRelationship.md)
 
 ### Authorization
 

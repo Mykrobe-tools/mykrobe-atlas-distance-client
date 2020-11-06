@@ -25,6 +25,7 @@ from distance_client.api.neighbours_put_api import NeighboursPutApi
 from distance_client.api.samples_delete_api import SamplesDeleteApi
 from distance_client.api.samples_get_api import SamplesGetApi
 from distance_client.api.samples_get_ids_api import SamplesGetIdsApi
+from distance_client.api.samples_patch_api import SamplesPatchApi
 from distance_client.api.samples_post_api import SamplesPostApi
 from distance_client.api.tree_delete_api import TreeDeleteApi
 from distance_client.api.tree_get_api import TreeGetApi

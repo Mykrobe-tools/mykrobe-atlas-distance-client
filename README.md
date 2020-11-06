@@ -79,6 +79,7 @@ Class | Method | HTTP request | Description
 *SamplesDeleteApi* | [**samples_id_delete**](docs/SamplesDeleteApi.md#samples_id_delete) | **DELETE** /samples/{id} | 
 *SamplesGetApi* | [**samples_id_get**](docs/SamplesGetApi.md#samples_id_get) | **GET** /samples/{id} | 
 *SamplesGetIdsApi* | [**samples_get**](docs/SamplesGetIdsApi.md#samples_get) | **GET** /samples | 
+*SamplesPatchApi* | [**samples_id_patch**](docs/SamplesPatchApi.md#samples_id_patch) | **PATCH** /samples/{id} | 
 *SamplesPostApi* | [**samples_post**](docs/SamplesPostApi.md#samples_post) | **POST** /samples | 
 *TreeDeleteApi* | [**tree_id_delete**](docs/TreeDeleteApi.md#tree_id_delete) | **DELETE** /tree/{id} | 
 *TreeGetApi* | [**tree_id_get**](docs/TreeGetApi.md#tree_id_get) | **GET** /tree/{id} | 
